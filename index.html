@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./fonts/Avenir LT Std 45 Book.otf">
+    <link rel="stylesheet" href="./fonts/Avenir LT Std 95 Black.otf">
+    <link rel="stylesheet" href="./fonts/FreeLine.otf">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <title> Shared Company - Tienda Exclusiva de celulares importados</title>
+</head>
+<body class="container">
+    <hr class="spaces">
+    <div class="banner">
+        <h1 class="text-center mybanner">Shared Company</h1>
+        <h1 class="text-center mybanner2">Tienda de celulares importados</h1>
+    </div>
+    <h2 class="text-left">Dólar en referencia de pago</h2>
+
+    <div id="dolarRef"></div>
+
+    <h2 class="text-left">Listado de compras</h2>
+
+    <div class="mycarrito">
+        <button id="showCarrito" class="btn myboton"><i class="fas fa-shopping-cart"></i> Ver Carrito </button>
+        <button id="finalizarCompra" class="btn myboton"><i class="fas fa-shopping-cart"></i> Comprar </button>
+        <button id="emptyCarrito" class="btn myboton"><i class="fas fa-cart-arrow-down"></i> Vaciar Carrito </button>
+    </div>
+    <h3> 
+      <span id="total"></span>
+    </h3>
+
+    <div id="containerCarrito" class="row">
+    </div>
+
+    <hr class="spaces">
+
+    <div id="shop" class="row">
+    </div>
+
+    <hr class="spaces">
+  
+    <a href="https://api.whatsapp.com/send?phone=0115456885&text=Hola Shared Company quisiera más información sobre sobre un producto." class="float" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i>
+    </a>
+
+    <footer class="bg-light text-center text-lg-start">
+
+      <div class="container p-4">
+
+        <div class="row">
+
+          <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Shared Company</h5>
+    
+            <p>
+              <strong class="resaltado">SHARED</strong> es la solución perfecta para comprar un smartphone nuevo con garantía. Todos los celulares son revisados por nuestros técnicos en caso de fallas  y tienen garantía de 90 días.
+              También podrás encontrar celulares de alta gama con 1 año de garantía. Todos los celulares que vendemos son originales.
+            </p>
+            <p>
+             <strong class="resaltado">Visión: </strong>Ser líderes en el mercado de Smartphones contribuyendo y fomentando la utilización de tecnología en Latinoamérica.
+            </p>
+            <p>
+              <strong class="resaltado">Misión: </strong> Proporcionar a nuestros usuarios un canal rápido y seguro al momento de querer comprar un smartphone.
+            </p>
+          </div>
+
+    
+          <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+          <h5 class="text-uppercase fw-bold mb-4">Contact</h6>
+          <p><i class="fas fa-home me-3 text-secondary"></i> Buenos Aires, CABA, ARG</p>
+          <p><i class="fas fa-phone me-3 text-secondary"></i> + 011 545 6885</p>
+          <p>
+            <i class="fas fa-envelope me-3 text-secondary"></i>
+            shared@company.com.ar
+          </p>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2023 Copyright:
+        <a class="text-dark" href="">sharedcompany.com.ar</a>
+      </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
