@@ -71,6 +71,7 @@ h1{
     font-family: 'Avenir';
     background-color: black;
     color: aliceblue;
+    margin: 0.2rem;
 }
 
 .myboton:hover{
@@ -105,7 +106,7 @@ h1{
 
 .mycarrito{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .fa-cart-plus{
@@ -115,13 +116,13 @@ h1{
 .mybanner{
     color: #f1f1f1;
     font-family: 'Freeline';
-    font-size: 3.5rem;
+    font-size: 2.5rem;
 }
 
 .mybanner2{
     color: #f1f1f1;
     font-family: 'Freeline';
-    font-size: 2.0rem;
+    font-size: 1.5rem;
     padding-bottom: 2rem;
 }
 
